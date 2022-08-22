@@ -1,0 +1,24 @@
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:47:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:47:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:47:59] "GET /search/?s=фласк HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:47:59] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:47:59] "[36mGET /uploads/images/photo_2022-07-24_18-43-46.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:47:59] "[36mGET /uploads/images/photo_2022-05-10_14-56-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:47:59] "[36mGET /uploads/images/кореша.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:48:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:48:02] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:48:10] "GET /search/?s=хе HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:48:10] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:48:10] "[33mGET /search/uploads/images//icon.png.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:04] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:12] "GET /search/?s=flask HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:12] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:20] "GET /search/?s=фласк HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:20] "[36mGET /uploads/images/photo_2022-07-24_18-43-46.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:20] "[36mGET /uploads/images/photo_2022-05-10_14-56-32.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [22/Aug/2022 20:53:20] "[36mGET /uploads/images/кореша.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+INFO:werkzeug: * Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
