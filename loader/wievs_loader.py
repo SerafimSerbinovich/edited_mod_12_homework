@@ -22,7 +22,7 @@ def add_post_page():
 
     if not picture or not content:
         return 'Нет картинки или описания'
-    if picture.filename.split('.')[-1] not in ['jpeg', 'png']:
+    if picture.filename.split('.')[-1] not in ['jpeg', 'png', 'jpg']:
         logging.error('Загруженный файл не картинка')
         return 'Неверный формат файла'
     try:
@@ -33,7 +33,7 @@ def add_post_page():
     except JSONDecodeError:
         return "Невалидный файл!"
 
-    post = add_post({'pic': picture_path, 'content': content})
+    post = add_post({'pic': '/' + picture_path, 'content': content})
 
     return render_template('post_uploaded.html', post=post)
 

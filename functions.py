@@ -33,3 +33,5 @@ def add_post(post: dict) -> dict:
     with open('posts.json', 'w', encoding='utf-8') as file:
         json.dump(posts, file)
     return post
+
+

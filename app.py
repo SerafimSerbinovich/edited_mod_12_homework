@@ -19,6 +19,7 @@ logging.basicConfig(filename='basic.log', level=logging.INFO)
 
 @app.route("/uploads/<path:path>")
 def static_dir(path):
+    path = '/' + path
     return send_from_directory('uploads', path)
 
 

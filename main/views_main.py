@@ -22,7 +22,6 @@ def get_all():
     return render_template('all.html', posts=posts)
 
 
-
 # Create a view for search/
 @main_blueprint.route('/search/')
 def search_page():
