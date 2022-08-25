@@ -2,7 +2,7 @@ import logging
 from json import JSONDecodeError
 
 from flask import Blueprint, render_template, request
-from functions import get_posts_by_word
+from functions import get_posts_by_word, load_posts
 
 # Create an exemplar of class
 main_blueprint = Blueprint('main_blueprint', __name__, template_folder='templates_name')
@@ -12,6 +12,15 @@ main_blueprint = Blueprint('main_blueprint', __name__, template_folder='template
 @main_blueprint.route('/')
 def main():
     return render_template('index.html')
+
+
+# Create a view for / вот этц вьюшку сделал
+@main_blueprint.route('/all')
+def get_all():
+    posts = load_posts()
+    # add template all
+    return render_template('all.html', posts=posts)
+
 
 
 # Create a view for search/
